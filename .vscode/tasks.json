@@ -1,0 +1,34 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "compile",
+            "command": "javac",
+            "args": [
+                "Choose.java"
+            ],
+            "group": {
+                "kind": "build"
+            },
+            "presentation": {
+                "reveal": "always"
+            }
+        },
+        {
+            "label": "run",
+            "command": "java",
+            "args": [
+                "Choose"
+            ],
+            "dependsOn": "compile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        }
+    ]
+}

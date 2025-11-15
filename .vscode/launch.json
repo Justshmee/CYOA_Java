@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java Debug - Choose",
+            "type": "java",
+            "name": "Launch Choose",
+            "request": "launch",
+            "mainClass": "Choose",
+            "projectName": "CYOA_Java",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
